@@ -24,6 +24,17 @@ Steps to reproduce:
 APIs:
 
 Register: POST /register
+data gui len:
+{
+	"name" : "Duy",
+	"email" : "orangezuice1212+9@gmail.com",
+	"password" : "duy ba dao"
+}
 Log in: POST /signin
+data gui len:
+{
+	"email" : "orangezuice1212+9@gmail.com",
+	"password" : "duy ba dao"
+}
 Get user details: GET /user/:id
 Update user ranking when use app: PUT /user/:id/rank/increment
